@@ -1,0 +1,10 @@
+Execution Set,Browser,Viewport,Total Checks,Pass,Fail,Overall Result,Notes
+Desktop - Chrome,Chrome,1440x900,10,10,0,Pass,"Core layout, navigation, forms, images and text passed."
+Desktop - Edge,Edge,1440x900,10,9,1,Pass with Observation,Low-severity focus-outline observation.
+Desktop - Firefox,Firefox,1440x900,10,8,2,Needs Fix,Form control consistency issue modeled and documented.
+Tablet - Chrome,Chrome,768x1024,6,6,0,Pass,Responsive layout acceptable.
+Tablet - Edge,Edge,768x1024,6,6,0,Pass,Responsive layout acceptable.
+Tablet - Firefox,Firefox,768x1024,6,5,1,Needs Fix,Card-height consistency issue.
+Mobile - Chrome,Chrome,390x844,6,5,1,Needs Fix,CTA overflow at narrow width.
+Mobile - Edge,Edge,390x844,6,5,1,Needs Fix,CTA overflow at narrow width.
+Mobile - Firefox,Firefox,390x844,6,5,1,Needs Fix,CTA overflow at narrow width.

@@ -1,0 +1,5 @@
+Defect ID,Title,Area,Browser(s),Severity,Priority,Status,Observation,Recommended Fix
+CB-001,Mobile CTA overflows/wraps at narrow viewport,Responsive Behavior,Chrome / Edge / Firefox,High,P1,Open,At 390px the primary CTA wraps and reduces usable spacing.,"Use flexible width, min-height, and responsive typography; retest 320/375/390/430px."
+CB-002,Form select height differs from text input in Firefox compatibility scenario,Forms & Buttons,Firefox,Medium,P2,Open,Native/select rendering creates visible control-height mismatch.,"Normalize appearance, line-height, padding, and min-height across controls."
+CB-003,Service card text wrapping causes uneven card heights at tablet width,Page Layout,Firefox / Tablet,Medium,P2,Open,One card becomes taller and disrupts row alignment.,"Use grid auto-rows, consistent card min-height, and content wrapping rules."
+CB-004,Secondary button focus outline appears clipped in Edge compatibility review,Buttons / Accessibility,Edge,Low,P3,Open,Focus ring is visible but too close to container boundary.,Add outline-offset and avoid overflow:hidden on focusable control containers.

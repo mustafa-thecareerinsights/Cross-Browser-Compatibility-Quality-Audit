@@ -1,0 +1,31 @@
+Check ID,Test Area,Browser,Viewport,Result,Severity,Observation
+CB-CHK-001,Page loads without broken layout,Chrome,Desktop 1440x900,Pass,Low,Core layout rendered correctly.
+CB-CHK-002,Page loads without broken layout,Edge,Desktop 1440x900,Pass,Low,Chromium-based rendering expected consistent with Chrome; no standards conflict identified.
+CB-CHK-003,Page loads without broken layout,Firefox,Desktop 1440x900,Pass,Low,Standards review found no blocking layout dependency.
+CB-CHK-004,Header/navigation alignment,Chrome,Desktop 1440x900,Pass,Low,Navigation aligned and readable.
+CB-CHK-005,Header/navigation alignment,Edge,Desktop 1440x900,Pass,Low,No blocking issue identified.
+CB-CHK-006,Header/navigation alignment,Firefox,Desktop 1440x900,Fail,Medium,Minor control-height/line-height variance modeled in evidence; normalize form/control line-height.
+CB-CHK-007,Primary buttons visible and clickable,Chrome,Desktop 1440x900,Pass,Low,Button states visible.
+CB-CHK-008,Primary buttons visible and clickable,Edge,Desktop 1440x900,Pass,Low,Button states visible.
+CB-CHK-009,Primary buttons visible and clickable,Firefox,Desktop 1440x900,Pass,Low,Functional behavior unaffected.
+CB-CHK-010,Links open expected destination,Chrome,Desktop 1440x900,Pass,Low,Navigation link behavior verified in controlled fixture.
+CB-CHK-011,Links open expected destination,Edge,Desktop 1440x900,Pass,Low,No incompatibility identified.
+CB-CHK-012,Links open expected destination,Firefox,Desktop 1440x900,Pass,Low,No incompatibility identified.
+CB-CHK-013,Form input/select visual consistency,Chrome,Desktop 1440x900,Pass,Low,Consistent height and spacing.
+CB-CHK-014,Form input/select visual consistency,Edge,Desktop 1440x900,Pass,Low,Minor native-control differences acceptable.
+CB-CHK-015,Form input/select visual consistency,Firefox,Desktop 1440x900,Fail,Medium,Select/control height differs from text input in the compatibility scenario.
+CB-CHK-016,Image scaling and aspect ratio,Chrome,Desktop 1440x900,Pass,Low,Images retain aspect ratio.
+CB-CHK-017,Image scaling and aspect ratio,Edge,Desktop 1440x900,Pass,Low,No issue identified.
+CB-CHK-018,Image scaling and aspect ratio,Firefox,Desktop 1440x900,Pass,Low,No issue identified.
+CB-CHK-019,Responsive layout at tablet width,Chrome,Tablet 768x1024,Pass,Low,Cards stack correctly.
+CB-CHK-020,Responsive layout at tablet width,Edge,Tablet 768x1024,Pass,Low,Cards stack correctly.
+CB-CHK-021,Responsive layout at tablet width,Firefox,Tablet 768x1024,Fail,Medium,Card text wrapping causes uneven row height in modeled Firefox condition.
+CB-CHK-022,Responsive layout at mobile width,Chrome,Mobile 390x844,Fail,High,CTA wraps/overflows at narrow width; release fix recommended.
+CB-CHK-023,Responsive layout at mobile width,Edge,Mobile 390x844,Fail,High,Same responsive CSS issue applies.
+CB-CHK-024,Responsive layout at mobile width,Firefox,Mobile 390x844,Fail,High,Same responsive CSS issue applies.
+CB-CHK-025,Keyboard focus visibility,Chrome,Desktop 1440x900,Pass,Low,Focus indicator visible.
+CB-CHK-026,Keyboard focus visibility,Edge,Desktop 1440x900,Pass,Low,Focus indicator visible; slight clipping on one secondary control noted.
+CB-CHK-027,Keyboard focus visibility,Firefox,Desktop 1440x900,Pass,Low,Focus indicator visible.
+CB-CHK-028,Text readability and wrapping,Chrome,Mobile 390x844,Pass,Low,Text remains readable.
+CB-CHK-029,Text readability and wrapping,Edge,Mobile 390x844,Pass,Low,Text remains readable.
+CB-CHK-030,Text readability and wrapping,Firefox,Mobile 390x844,Pass,Low,Text remains readable.
